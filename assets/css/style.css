@@ -1,4 +1,3 @@
-
 body {
     height: 100;
     width: 100%;
@@ -16,6 +15,10 @@ body {
 
 .nav {
     padding: 20px 0 20px 0;
+}
+
+.nav-link-container {
+    text-align: center;
 }
 
 .nav-links {
@@ -142,4 +145,29 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #4a94aa;
+}
+
+/* Mobile Code below */
+
+@media only screen and (max-width: 500px) {
+    .container,
+    .connect {
+        width: 300px;
+        margin: 0 auto 85px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    .logo-row {
+        width: 240px;
+        margin: 0 auto;
+    }
+
+    .headshot, 
+    .portfolio-img, 
+    .portfolio-banner {
+        width: 270px;
+    }
 }
