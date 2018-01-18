@@ -149,9 +149,8 @@ input[type=submit]:hover {
 
 /* Mobile Code below */
 
-@media only screen and (max-width: 500px) {
-    .container,
-    .connect {
+@media only screen and (max-width: 767.99px) {
+    .container {
         width: 300px;
         margin: 0 auto 85px;
     }
